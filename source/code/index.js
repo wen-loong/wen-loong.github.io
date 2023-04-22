@@ -1,1 +1,1 @@
-document.querySelector('.framework-info');
+document.querySelector('.framework-info').remove();

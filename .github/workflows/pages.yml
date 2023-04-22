@@ -2,8 +2,7 @@ name: Pages
 on:
   push:
     branches:
-      - blog # default branch
-
+      - blog
 jobs:
   pages:
     runs-on: ubuntu-latest
