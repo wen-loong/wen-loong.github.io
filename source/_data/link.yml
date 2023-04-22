@@ -1,0 +1,111 @@
+- class_name: '<i class="fa-solid fa-screwdriver-wrench" style="color: #FF6666;padding-right: 0.4rem"></i>开发工具周边'
+  class_desc: '<span style="font-style: italic;">开发工具周边</span>'
+  link_list:
+    - name: BASE64加解密
+      link: https://base64.supfree.net/
+      avatar: https://www.supfree.net/favicon.ico
+      descr: Base64在线加解密
+    - name: 在线工具
+      link: https://www.zxgj.cn
+      avatar: https://www.zxgj.cn/favicon.ico
+      descr: 提供随机数、RGB颜色转换、UUID生成，Base64及字符串编解码，xml、json格式化等工具
+    - name: fly63工具箱
+      link: https://www.fly63.com/tool/cipher/
+      avatar: https://www.fly63.com/favicon.ico
+      descr: '提供在线转换、加解密、CSS样式等工具'
+    - name: 站长工具
+      link: https://www.fly63.com/tool/cipher/
+      avatar: https://www.fly63.com/favicon.ico
+      descr: 'Unicode、UTF-8、URL编码，Unix时间戳等工具'
+    - name: 正则表达式可视化工具
+      link: https://jex.im/regulex/
+      avatar: https://jex.im/favicon.ico
+      descr: '正则表达式可视化工具'
+    - name: 正则表达式可视化工具
+      link: https://regexr.com/
+      avatar: https://regexr.com/favicon.ico
+      descr: '正则表达式调试工具'
+    - name: Json工具
+      link: https://www.json.cn/
+      avatar: https://www.json.cn/favicon.ico
+      descr: 'Json工具'
+      
+- class_name: '<i class="fa-sharp fa-solid fa-palette" style="color: #FF6666;padding-right: 0.4rem"></i>图标&设计'
+  class_desc: '<span style="font-style: italic;">在线文档、笔记编写</span>'
+  link_list:
+    - name: 阿里巴巴矢量图标库
+      link: https://www.iconfont.cn/
+      avatar: https://www.iconfont.cn/favicon.ico
+      descr: '阿里巴巴矢量图标库'
+    - name: Font Awesome
+      link: https://fontawesome.com/
+      avatar: https://fontawesome.com//favicon.ico
+      descr: 'Font Awesome'
+
+- class_name: '<i class="fa-solid fa-pen" style="color: #FF6666;padding-right: 0.4rem"></i>在线笔记'
+  class_desc: '<span style="font-style: italic;">在线文档、笔记编写</span>'
+  link_list:
+    - name: 语雀
+      link: https://www.yuque.com/
+      avatar: https://www.yuque.com/favicon.ico
+      descr: '语雀'
+    - name: 石墨文档
+      link: https://shimo.im/
+      avatar: https://shimo.im/favicon.ico
+      descr: '石墨文档'
+
+- class_name: '<i class="fa-sharp fa-solid fa-code" style="color: #FF6666;padding-right: 0.4rem"></i>开发文档'
+  class_desc: '<span style="font-style: italic;">开发文档</span>'
+  link_list:
+    - name: dotnet
+      link: https://learn.microsoft.com/zh-cn/dotnet/
+      avatar: https://learn.microsoft.com/favicon.ico
+      descr: 'dotnet官方文档'
+    - name: Java
+      link: https://docs.oracle.com/en/java/javase/index.html
+      avatar: https://docs.oracle.com/sp_common/site-template/ohc-common/img/o-icon/favicon.ico
+      descr: 'Java官方文档'
+    - name: Golang
+      link: https://go.dev/doc/
+      avatar: https://go.dev/images/favicon-gopher.png
+      descr: 'Golang官方文档'
+    - name: Nodejs
+      link: https://nodejs.org/
+      avatar: https://nodejs.org/favicon.ico
+      descr: 'Nodejs官方文档'
+    - name: Git
+      link: https://git-scm.com/book/en/v2
+      avatar: https://git-scm.com/favicon.ico
+      descr: 'Git官方文档'
+    - name: Kafka
+      link: https://kafka.apache.org/documentation/
+      avatar: https://kafka.apache.org/favicon.ico
+      descr: 'Kafka官方文档'
+    - name: Mybatis
+      link: https://mybatis.org/mybatis-3/zh/getting-started.html
+      avatar: https://mybatis.org/favicon.ico
+      descr: 'Mybatis官方文档'
+    - name: MyBatis-Plus
+      link: https://baomidou.com/
+      avatar: https://baomidou.com/img/favicon.ico
+      descr: 'MyBatis-Plus官方文档'
+    - name: Spring
+      link: https://spring.io/
+      avatar: https://spring.io/favicon-32x32.png?v=96334d577af708644f6f0495dd1c7bc8
+      descr: 'Spring官方文档'
+    - name: Maven
+      link: https://maven.apache.org/guides/
+      avatar: https://maven.apache.org/favicon.ico
+      descr: 'Maven官方文档'
+    - name: Elasticsearch
+      link: https://www.elastic.co/guide/en/elasticsearch/reference/8.7/getting-started.html
+      avatar: https://www.elastic.co/favicon.ico
+      descr: 'Elasticsearch官方文档'
+    - name: Docker
+      link: https://docs.docker.com/get-started/
+      avatar: https://docs.docker.com/assets/favicons/docs@2x.ico
+      descr: 'Docker官方文档'
+    - name: Kubernetes
+      link: https://kubernetes.io/docs/home/
+      avatar: https://kubernetes.io/images/favicon.png
+      descr: 'Kubernetes官方文档'
