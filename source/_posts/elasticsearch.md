@@ -2,10 +2,11 @@
 title: elasticsearch
 comments: true
 aplayer: false
-date: 2023-04-17 21:55:16
 tags:
- - Elasticsearch
- - 全文搜索引擎
+  - Elasticsearch
+  - 全文搜索引擎
+abbrlink: 60537c10
+date: 2023-04-17 21:55:16
 categories:
 keywords:
 description:
