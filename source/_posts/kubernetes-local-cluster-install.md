@@ -1,5 +1,5 @@
 ---
-title: kubernetes-install
+title: kubernetes-local-cluster-install
 comments: false
 aplayer: false
 tags:
