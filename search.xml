@@ -171,7 +171,7 @@
       </tags>
   </entry>
   <entry>
-    <title>kubernetes-install</title>
+    <title>kubernetes-local-cluster-install</title>
     <url>/posts/d6ebbcb/</url>
     <content><![CDATA[<h2 id="一、multipass简介及安装"><a href="#一、multipass简介及安装" class="headerlink" title="一、multipass简介及安装"></a>一、multipass简介及安装</h2><p>以下来源于multipass 官网</p>
 <blockquote>
