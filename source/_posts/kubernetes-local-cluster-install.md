@@ -38,8 +38,42 @@ multipass launch --name node2 --cpus 1 --memory 4096M --disk 30G
 ```shell
 multipass shell [VM-name]
 ```
+由于重启之后虚拟机的IP会变化，此处使用静态IP进行处理，可以使用`--network `参数指定，但是依旧没有固定IP，所以启动之后进入VM手动添加`eth0`网卡设置固定IP
 
+添加网络启动参数示例
+> multipass launch --name master --cpus 2 --memory 4096M --disk 30G --network name=ext-Switch,mode=manual
 
+**以下是为VM设置固定IP的步骤(Windows + hyper-v)**
++ 打开`hyper-v manager`---> `virtual-switch-manager`--> `new virtual netw switch `，如下图所示
+![hyper-v-switch](/resources/assets/d6ebbcb/20230707151910.png)
++ netplan 是 ubuntu 维护网卡信息的地方，配置文件地址在 `/etc/netplan/`目录下
+  该目录下只有一个文件，`50-cloud-init.yaml`，修改将该文件备份，然后加入固定IP（IP基于默认的虚拟网卡自行设置）
+  ```shell
+  sudo vi /etc/netplan/50-cloud-init.yaml
+  ```
++ 修改文件内容
+  ```yaml
+  network:
+      ethernets:
+          eth0:
+              dhcp4: true
+              match:
+                  macaddress: 52:54:00:5d:df:a6
+              set-name: eth0
+          eth1:
+              addresses:
+                  - 172.28.128.3/17
+              nameservers:
+                  addresses: [172.28.128.1]
+              routes:
+                  - to: default
+                    via: 172.28.128.1
+      version: 2
+  ```
++ 应用修改
+  ```shell
+  sudo netplan --debug apply
+  ```
 ## kubernetes本地集群搭建
 
 此处使用`kubeadm`和`docker`搭建
@@ -437,5 +471,10 @@ node2                   Running           172.28.137.244   Ubuntu 22.04 LTS
                                           172.17.0.1
                                           10.244.2.0
                                           10.244.2.1
+```
+**开启开机自启**
+```shell
+systemctl enable kubelet
+systemctl enable  kubelet.service
 ```
 至此，kubernetes 本地集群搭建完毕
